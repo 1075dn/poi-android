@@ -17,6 +17,13 @@
 -keep class com.fasterxml.aalto.stax.OutputFactoryImpl
 -keep class com.fasterxml.aalto.stax.EventFactoryImpl
 
+-keep public class com.fasterxml**{;}
+-keep class org.apache**{;}
+-keep class org.codehaus**{;}
+-keep class org.etsi**{;}
+-keep class org.openxmlformats**{;}
+-keep class schemaorg_apache_xmlbeans**{;}
+
 -keep class schemaorg_apache_xmlbeans.system.sF1327CCA741569E70F9CA8C9AF9B44B2.TypeSystemHolder {
     public final static *** typeSystem;
 }
